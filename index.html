@@ -1,9 +1,72 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Banking-Form Project</title>
 </head>
 <body>
+<form>
+Applicant First Name:<br>
+<input type="text" name="firstName"><br>
+
+Applicant Middle Initial:<br>
+<input type="text" name="middleInitial"><br>
+
+Applicant Last Name:<br>
+<input type="text" name="lastName"><br>
+
+Applicant Address:<br>
+<input type="text" name="address"><br>
+
+Applicant Occupation:<br>
+<input type="text" name="occupation"><br>
+
+Applicant Employer:<br>
+<input type="text" name="employer"><br>
+
+Employer Address:<br>
+<input type="text" name="employerAddress"><br>
+
+
+Type of Loan with These Options:<br>
+
+<select>
+  <option value="commercial">Commercial</option>
+  <option value="realEstate">Real estate</option>
+  <option value="personal">Personal</option>
+  <option value="mortgage" selected>Mortgage</option>
+</select><br>
+
+Requested Amount of Loan:<br>
+<input type="text" name="loanAmount" value="$"><br>
+
+Loan Length:<br>
+
+  <input type="radio" name="loanLength" value="5 years">5 years<br>
+  <input type="radio" name="loanLength" value="15 years">15 years<br>
+  <input type="radio" name="loanLength" value="30 years">30 years
+
+<p>Special Conditions:</p>
+<input type="checkbox" name="specialCondtion" value="downPayment">I have a down payment<br>
+<input type="checkbox" name="specialCondition" value="outofstate">Out-of-state resident<br> 
+<input type="checkbox" name="specialCondition" value="married">Married<br> 
+<input type="checkbox" name="specialCondition" value="cosigned">Loan will be co-signed<br>
+
+
+
+Additional Comments:<br>
+
+<textarea rows="4" cols="50" name="comment" form="usrform">
+Enter text here...</textarea><br>
+
+
+Applicant email address:<br>
+<input type="text" name="emailAddress"><br>
+Applicant telephone number:<br>
+<input type="text" name="telephoneNumber"><br>
+Applicant LinkedIn URL:<br>
+<input type="text" name="LinkedInURL"><br>
+ <input type="submit" value="Submit">
+</form>	
 
 </body>
 </html>
